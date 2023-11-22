@@ -1,0 +1,77 @@
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	background-color: green;
+	margin: 20px;
+	transition: all 0.5s ease;
+	background-position: center;
+	background-size: 100% 90%;
+	background-repeat: no-repeat;
+}
+.photo:hover{
+	transform:rotate(1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 1.0);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #efefef;
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	width: 100%;
+	text-align:center ;
+	font-size: 48px;
+	color: red;
+}
+
+.photo1{
+	background-image: url('https://kartinkin.net/pics/uploads/posts/2022-09/1662966630_47-kartinkin-net-p-kotik-shlepa-koti-47.jpg');
+}
+.photo2{
+	background-image: url('https://ic.pics.livejournal.com/tiina/12725143/24662748/24662748_original.jpg');
+}
+.photo3{
+	background-image: url('https://image1.thematicnews.com/uploads/topics/preview/00/11/40/98/17f6e2ee96.jpg');
+}
+.photo4{
+	background-image: url('https://i.ytimg.com/vi/pLknJ2RXqhY/maxresdefault.jpg');
+}
+.photo5{
+	background-image: url('https://i.ytimg.com/vi/5W2qCCMEkV4/maxresdefault.jpg');
+}
+.photo6{
+	background-image: url('https://chudo-prirody.com/uploads/posts/2021-08/1628931488_103-p-mnogo-kotov-foto-109.jpg');
+}
+.photo7{
+	background-image: url('https://u.9111s.ru/uploads/202306/03/812c2ea9e1516651f445b79256105488.jpg');
+}
+.photo8{
+	background-image: url('https://oir.mobi/uploads/posts/2021-05/1620792085_59-oir_mobi-p-kucha-kotov-zhivotnie-krasivo-foto-63.jpg');
+}
+.photo9{
+	background-image: url('https://i.pinimg.com/originals/58/db/b9/58dbb9f2a3e6739fd7e71fd9b961e4c0.jpg');
+}
+.photo10{
+	background-image: url('https://1.bp.blogspot.com/-dU84Nyfddjg/Xlf62lfuB5I/AAAAAAAAAkU/d5miPgLjKvA4KLINmGh0w7hX8lctXJw7wCLcBGAsYHQ/s1600/Brexit%252Bmetaphor.jpg');
+}
+.photo11{
+	background-image: url('https://content.onliner.by/news/2016/05/original_size/227cf5aa7c1cbfd4c312189841a46608.jpg');
+}
+.photo12{
+	background-image: url('');
+}
